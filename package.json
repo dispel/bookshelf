@@ -6,7 +6,6 @@
   "scripts": {
     "format": "prettier --write \"{lib,scripts,test}/**/*.js\"",
     "lint": "eslint bookshelf.js lib/",
-    "cover": "npm run lint && nyc mocha --check-leaks -t 10000 -b",
     "test": "npm run lint && mocha --check-leaks -t 10000 -b",
     "jsdoc": "./scripts/jsdoc.sh",
     "postpublish": "./scripts/postpublish.sh"
@@ -53,7 +52,6 @@
     "lint-staged": "^9.2.5",
     "mocha": "^10.2.0",
     "mysql": "^2.18.1",
-    "nyc": "^15.0.0",
     "pg": "^8.0.3",
     "prettier": "^1.18.2",
     "sinon": "^8.1.1",
