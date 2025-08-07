@@ -62,6 +62,9 @@
   "peerDependencies": {
     "knex": ">=1.0.0"
   },
+  "overrides": {
+    "tmp": "^0.2.4"
+  },
   "author": {
     "name": "Tim Griesser",
     "url": "https://github.com/tgriesser"
