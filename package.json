@@ -1,6 +1,6 @@
 {
   "name": "bookshelf",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A lightweight ORM for PostgreSQL, MySQL, and SQLite3",
   "main": "bookshelf.js",
   "scripts": {
@@ -50,7 +50,7 @@
     "jsdoc": "^4.0.2",
     "knex": "^2.4.2",
     "lint-staged": "^9.2.5",
-    "mocha": "^10.2.0",
+    "mocha": "^10.8.2",
     "mysql": "^2.18.1",
     "pg": "^8.0.3",
     "prettier": "^1.18.2",
