@@ -64,7 +64,7 @@
   },
   "overrides": {
     "tmp": "^0.2.4",
-    "tar": "^7.5.3"
+    "tar": "^7.5.4"
   },
   "author": {
     "name": "Tim Griesser",
